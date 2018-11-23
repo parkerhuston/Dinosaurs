@@ -18,6 +18,7 @@ class App extends Component {
           <h3>Dinosaurs went extinct 65 millon years ago.</h3>
           <h3>There is a theory dinosaurs were killed by weather change beacause a meteor hit Mexico. The dust covered the sky, therefore plants were dying herbivores were dying therefore, carnivores were dying therefore, ominvores were dying which killed all dinosaurs </h3>
           <img src="https://www.enchantedlearning.com/mgifs/Mesotimeline.GIF" alt ="timeline" style={{ width: '50%', height: '10%' }} />
+          <caption>https://www.enchantedlearning.com/mgifs/Mesotimeline.GIF</caption>
           <h3>this is a time line  of the dinosaur times to now</h3>
           <Fact
             header="Dino fact 2"

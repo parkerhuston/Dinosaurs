@@ -27,8 +27,15 @@ export default class Fact extends Component {
                     <p>{text}</p>
                 }
                 {img.map((i) => (
-                    <img src={i} />
+                    <Fragment>
+                      <img src={i} />
+                      {
+                          i.includes('http') &&
+                          <caption>{i}</caption>
+                      }
+                    </Fragment>
                 ))}
+                {}
             </Fragment>
         );
     }

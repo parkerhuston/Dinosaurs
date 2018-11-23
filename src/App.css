@@ -1,6 +1,17 @@
 body {
     background-color:grey;
 }
+
+caption {
+    font-size: .65em;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+caption::before {
+    content: 'Image Credit: ';
+}
+
 .text p {
     width:50%;
     height:25%;
@@ -10,6 +21,8 @@ img {
     width:30%;
     height:50%;
 }
-a{font-size:50px;
-color:#f00;}
-    
+a{
+    font-size:50px;
+    color:#;
+    color:#f10;
+}
